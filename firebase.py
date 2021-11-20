@@ -168,7 +168,7 @@ user = auth.create_user(
     #phone_number = '+15555550102',
     email_verified = False,
     password = '500011111',
-    display_name = 'Test1',
+    display_name = '500011111',
     disabled = False,
 )
 
