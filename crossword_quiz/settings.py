@@ -99,12 +99,14 @@ REST_FRAMEWORK = {
 }
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
-    "http://127.0.0.1:9000",
-    "http://localhost:8000",
-    "http://localhost:3000",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:8080",
+#     "http://127.0.0.1:9000",
+#     "http://localhost:8000",
+#     "http://localhost:3000",
+# ]
+CORS_ALLOWED_ORIGINS = ["*"]
+
 
 CORS_ORIGIN_ALLOW_ALL = True
 
